@@ -4,6 +4,16 @@
 ## Student: Stefan Florin-Viorel-Dan
 ## Anul 4, 2023
 
+## Cerinte 
+ 2 metode functionale
+ 3 structurale (statement, branch, circuite)
+ 2 mutanti de omorat
+
+## Rezolvari
+ 3 metode functionale 
+ 4 structurale (statement, branch, condition, circuite)
+ 2 mutanti 
+
 ### Repository structure:
 `-array_manipulation`: Vom folosi doar `main.py` la coverage run. Singura ramasa importanta este `test.py` ce contine clasa cu testele pentru `partitionarea echivalenta` (class equivalencePartitioning(unittest.TestCase):
 
