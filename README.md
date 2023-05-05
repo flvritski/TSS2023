@@ -6,7 +6,7 @@
 
 ### Repository structure:
 `-array_manipulation`: Vom folosi doar `main.py` la coverage run. Singura ramasa importanta este `test.py` ce contine clasa cu testele pentru `partitionarea echivalenta` (class equivalencePartitioning(unittest.TestCase):
-`-src`: Main folder. Aici avem programul de baa impreuna cu toate suitele de teste (e.g boundary analysis separat, iar test.py ce contine boundary analysis + equivalence partioning)
+`-src`: Main folder. Aici avem programul de baza impreuna cu toate suitele de teste (e.g boundary analysis separat, iar test.py ce contine boundary analysis + equivalence partioning)
 
 ### /src directory
 #### `a_m.py` : Fisierul "main". 
