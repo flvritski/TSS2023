@@ -6,6 +6,7 @@
 
 ### Repository structure:
 `-array_manipulation`: Vom folosi doar `main.py` la coverage run. Singura ramasa importanta este `test.py` ce contine clasa cu testele pentru `partitionarea echivalenta` (class equivalencePartitioning(unittest.TestCase):
+
 `-src`: Main folder. Aici avem programul de baza impreuna cu toate suitele de teste (e.g boundary analysis separat, iar test.py ce contine boundary analysis + equivalence partioning)
 
 ### /src directory
@@ -17,8 +18,10 @@ $ mut.py --target src/a_m.py --unit-test src/test.py -m (flagul `-m` optional (d
 
 ### Coverage
 `$ coverage run array_manipulation/main.py ; coverage html -i` (`html -i` pentru a obtine si o pagina in HTML cu raportul final obtinut)
+
 `$ coverage run array_manipulation/test.py ; coverage html -i`
 
 ### Branch Coverage
 `$ coverage run --branch array_manipulation/main.py ; coverage html -i` (flagul `--branch` pentru a vedea si la nivel de ramuri coverage report-ul)
+
 `$ coverage run --branch array_manipulation/test.py ; coverage html -i`
